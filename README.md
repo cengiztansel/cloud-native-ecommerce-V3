@@ -14,7 +14,8 @@ The project demonstrates:
 •   Cloud-Native Design Principles
 ________________________________________
 Architecture
-________________________________________
+
+
 ```mermaid
 flowchart TD
 
