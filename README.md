@@ -52,6 +52,55 @@ Architecture
                     | RabbitMQ         |
                     +------------------+
 ________________________________________
+```mermaid
+flowchart TD
+
+Client[Client Browser]
+
+Gateway[Spring Cloud Gateway]
+
+Eureka[Eureka Discovery]
+
+Auth[Auth Service]
+User[User Service]
+Product[Product Service]
+Basket[Basket Service]
+
+Postgres[(PostgreSQL)]
+Redis[(Redis)]
+Rabbit[(RabbitMQ)]
+
+Client --> Gateway
+
+Gateway --> Auth
+Gateway --> User
+Gateway --> Product
+Gateway --> Basket
+
+Auth --> Postgres
+User --> Postgres
+Product --> Postgres
+
+Basket --> Redis
+
+Product --> Rabbit
+Basket --> Rabbit
+User --> Rabbit
+
+Auth --> Eureka
+User --> Eureka
+Product --> Eureka
+Basket --> Eureka
+Gateway --> Eureka
+```
+-----------------------------------------
+See detailed diagrams:
+- [Architecture](diagrams/architecture.md)
+- [JWT Flow](diagrams/jwt-flow.md)
+- [Eureka Discovery](diagrams/service-discovery.md)
+- [Deployment](diagrams/deployment.md)
+- [Kubernetes](diagrams/kubernetes.md)
+-----------------------------------------
 Technology Stack
 Backend
 •   Java 21

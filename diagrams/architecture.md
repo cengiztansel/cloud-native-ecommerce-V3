@@ -1,4 +1,4 @@
-High-Level Architecture
+# High-Level Architecture
 ## Cloud Native Architecture
 
 ```mermaid

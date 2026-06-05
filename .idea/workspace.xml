@@ -15,6 +15,11 @@
       <change beforePath="$PROJECT_DIR$/basket-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basket-service/src/main/resources/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basket-service/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basket-service/src/main/resources/application-local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basket-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basket-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/architecture.mmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/deployment.mmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/jwt-flow.mmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/kubernetes.mmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/service-discovery.mmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application-docker.properties" afterDir="false" />
@@ -47,12 +52,12 @@
     &quot;assignee&quot;: &quot;cengiztansel&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/cengiztansel/cloud-native-ecommerce-V2.git&quot;,
-    &quot;accountId&quot;: &quot;6ae7a420-b0ab-4295-bf3a-82e67c5d4901&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/cengiztansel/cloud-native-ecommerce-V3.git",
+    "accountId": "6ae7a420-b0ab-4295-bf3a-82e67c5d4901"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
